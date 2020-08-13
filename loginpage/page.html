@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>LOGIN</title>
+	<link rel="stylesheet" type="text/css" href="CSS/stylesheet.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+	<header>
+		<h1>FirstStep</h1>
+	</header>
+	<div class="main">
+		<span class="left">
+			<img src="https://envoc.com/uploads/images/think-professional.jpg" alt="Professional Group">
+		</span>
+		<span class="right">
+			<h2>LOGIN</h2>
+			<form>
+				<label class="inspace" for="Role">Choose role&nbsp
+					
+					
+					<select id="Roledropdown" name="Role" size="1" >
+  						<option value="">Select</option>
+  						<option value="Employer" >Employer</option>
+  						<option value="Student" >Student</option>
+
+					</select>
+
+
+				</label><br/>
+				<label class="inspace" for="E-Mail">E-Mail&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+					<input type="email" name="E-Mail" placeholder="example@gmail.com" required="*">
+				</label><br/>
+				<label class="inspace" for="password">Password&nbsp&nbsp&nbsp&nbsp&nbsp
+					<input type="password" name="password" placeholder="******" required="*">
+				</label><br/>
+				<input class="inspace but" type="submit" name="Submit" value="Log In">
+				<input class="inspace but" type="reset" name="reset" value="Reset" onclick="reset()"><br/>
+			</form>
+		</span>
+	</div>
+	<footer>
+		<p>&copy StutiKandpal</p>
+	</footer>
+</body>
+</html>
